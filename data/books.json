@@ -1,0 +1,119 @@
+{
+  "books": [
+    {
+      "name": "Jámiyla",
+      "author": "Shıńǵıs Aytmatov",
+      "description": "Atı aylı álemge belgili bolǵan qırǵız xalqınıń ataqlı jazıwshısı Shıńǵıs Aytamatovtıń “Jámiyla” povesti XX ásirdiń ekinshi yarımında (1958-jıl) dóretilip, dúnyanıń kóplegen tillerine awdarılıp, óziniń million-million oqıwshılarına iye shıǵarmalardıń biri. Povestte Ekinshi jet júzilik urıs dáwirindegi qırǵız awıllarınıń birinde bolǵan waqıyalar, tıldaǵı qıyınshılıqlar Jámiyla, Daniyar, Seyit obrazları arqalı súwretlenedi. Muhabbat – mıń jıllardan beri jasap kiyatırǵan úrp-ádet, degen ideya povesttiń negizin quraydı. Sonlıqtan, francuz jazıwshısı Lui Aragon bul shıǵarmanı “XX ásirdegi muhabbat haqqında jazılǵan eń kúshli qıssa” dep joqarı bahalaǵan.",
+      "category": "Jáhán ádebiyatı",
+      "narrator": "Dástan Baymurzaev",
+      "genre": [
+        "Roman",
+        "Ballada"
+      ],
+      "price": "20000",
+      "image_url": "../public/bookImages/jamiyla.jpg",
+      "id": "1",
+      "audio": [
+        {
+          "section": "I bólim",
+          "audioUrl": "../public/Disturbed - The Sound Of Silence (CYRIL Remix).mp3"
+        },
+        {
+          "section": "II bólim",
+          "audioUrl": "../public/The Kolors - ITALODISCO.mp3"
+        },
+        {
+          "section": "III bólim",
+          "audioUrl": "../public/ZERB& Sofiya Nzau - Mwaki.mp3"
+        }
+      ],
+      "votes": [
+        {
+          "user_id": "2",
+          "vote": "Esitip atırman"
+        },
+        {
+          "user_id": "1",
+          "vote": "Esittim"
+        }
+      ],
+      "comments": [
+        {
+          "user_id": "5",
+          "user_name": "Aziz",
+          "rating": 4,
+          "text": "Good app"
+        },
+        {
+          "user_id": "6",
+          "user_name": "Navbahor",
+          "rating": 5,
+          "text": "Best app i have ever used"
+        },
+        {
+          "user_id": "7",
+          "user_name": "Darmon",
+          "rating": 3,
+          "text": "I think there some areas needs to be improved"
+        },
+        {
+          "user_id": "1",
+          "user_name": "Azim",
+          "rating": 5,
+          "text": "App that i want and searched from long time"
+        }
+      ]
+    },
+    {
+      "name": "Tawlar qulaǵan máhál",
+      "author": "Shıńǵıs Aytmatov",
+      "description": "Atı pútkil dúnyaǵa belgili qırǵız jazıwshısı Shıńǵıs Aytmatovtıń romanı tuńǵısh mártebe rus tilinde 2006-jılı “Дружбы народов” jurnalında járiyalanıp, 2007-jılı Sankt-Peterburg qalasınıń “Азбука-классика” baspasınan óz aldına kitap bolıp jarıq kórdi. Búgingi kúnde roman inglis, nemis, túrk francuz jáne basqa da kóplegen tillerge awdarılıp basıldı. “Tawlar qulaǵan máhál” (Máńgi qalıńlıq) atlı bul roman qaraqalpaq tilinde “Ámiwdárya” jurnalınıń 2015-jılǵı sanlarında járiyalanǵan edi. Eski totalitar dúzim qulap, onıń ornın bazar ekonomikasına tiykarlanǵan qatnasıqlar iyeley baslaǵan bir dáwirde júz bergen social-mádeniy-psixologiyalıq ózgerisler kórkem sáwlelengen ádebiy-filosofiyalıq roman kitap oqıwshılarında úlken qızıǵıwshılıq payda etetuǵınına gúman keltirmeymiz.",
+      "category": "Jáhán ádebiyatı",
+      "narrator": "Jamilia Sarsenbaeva",
+      "genre": [
+        "Roman",
+        "Waqıya"
+      ],
+      "price": "15000",
+      "image_url": "../public/bookImages/Tawlar.jpg",
+      "id": "2",
+      "audio": [],
+      "votes": [],
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "Azim",
+      "phone": "+998906606565",
+      "password": "asd",
+      "favorite_books": [],
+      "my_books": [],
+      "cart": []
+    },
+    {
+      "id": "2",
+      "username": "Nappi",
+      "phone": "+998907239921",
+      "password": "123",
+      "favorite_books": [],
+      "my_books": [],
+      "cart": []
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "70e7",
+      "username": "ASd",
+      "rating": 1,
+      "text": "bad"
+    },
+    {
+      "id": "fb6e",
+      "username": "Aziz",
+      "rating": 5,
+      "text": "good"
+    }
+  ]
+}
