@@ -10,6 +10,7 @@ export default function FeedbackSection() {
         if (!rating || !ati || !pikir) return
 
         sendFeedback({
+            id: Math.random().toString(),
             username: ati,
             rating: rating,
             text: pikir

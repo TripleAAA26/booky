@@ -1,7 +1,12 @@
+
+
 export default function Error() {
+
     return (
-        <div>
-            Error
+        <div className='container'>
+            <div className='error-page'>
+                Something went wrong!
+            </div>
         </div>
     )
 }

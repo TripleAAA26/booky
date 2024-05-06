@@ -1058,6 +1058,16 @@ body {
   gap: 1rem;
 }
 
+/* //////////////////////////// ERROR PAGE ///////////////////////////// */
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
 /* //////////////////////////// MEDIA QUERIES ///////////////////////////// */
 
 /****************************************/
