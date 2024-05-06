@@ -2,6 +2,8 @@ import { Collapse, CollapseProps } from 'antd'
 import { useMediaQuery } from 'react-responsive'
 import { CSSProperties } from 'react'
 
+import donateImg from "../../public/donate.png"
+
 export default function Donate() {
     const isMobile = useMediaQuery({ query: '(max-width: 544px)' })
 
@@ -29,7 +31,7 @@ export default function Donate() {
                         rawajlanıwına úlken úles qosqan bolasız.
                     </p>
                 </div>
-                <img src="../../public/donate.png" alt="donate" className='donate-img'/>
+                <img src={donateImg} alt="donate" className='donate-img'/>
             </div>
             <div className='donate-faq-container' >
                 <h1>Soraw-juwap</h1>

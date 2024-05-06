@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom'
 
+import googlePlayImg from "../../public/googleplay.png"
+import appStoreImg from "../../public/appstore.png"
+import heroImg from "../../public/hero-section-img.jpg"
+
 export default function Hero() {
     return (
         <div className="hero-section">
@@ -18,15 +22,15 @@ export default function Hero() {
                     <button className='hero-btn'>Baslaw</button>
                     <div>
                         <Link to='https://play.google.com/store/apps/details?id=com.karsoft.bookienew' target='_blank'>
-                            <img src="../../public/googleplay.png" alt="google" className="mobile-stores-img"/>
+                            <img src={googlePlayImg} alt="google" className="mobile-stores-img"/>
                         </Link>
                         <Link to='https://www.apple.com/app-store' target='_blank'>
-                            <img src="../../public/appstore.png" alt="apple" className="mobile-stores-img"/>
+                            <img src={appStoreImg} alt="apple" className="mobile-stores-img"/>
                         </Link>
                     </div>
                 </div>
             </div>
-            <img src="../../public/hero-section-img.jpg" alt="hero" className="hero-section-img"/>
+            <img src={heroImg} alt="hero" className="hero-section-img"/>
         </div>
     )
 }

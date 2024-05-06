@@ -1,6 +1,8 @@
 import { Form, Input, message, Rate } from 'antd'
 import { useFeedback } from '../hooks/useFeedback.ts'
 
+import feedbackImg from '../../public/feedback.png'
+
 export default function FeedbackSection() {
     const { sendFeedback } = useFeedback()
     const [ messageApi, contextHolder ] = message.useMessage()
@@ -77,7 +79,7 @@ export default function FeedbackSection() {
                     </Form.Item>
                 </Form>
             </div>
-            <img src='../../public/feedback.png' alt='feedback' className='feedback-section-img'/>
+            <img src={feedbackImg} alt='feedback' className='feedback-section-img'/>
         </div>
     )
 }

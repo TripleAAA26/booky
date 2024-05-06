@@ -5,6 +5,10 @@ import { Book } from '../../types.ts'
 import useCartStore from '../hooks/useCartStore.ts'
 import PaymentItem from '../components/PaymentItem.tsx'
 
+import uzumIcon from "../../public/payment-methods/Uzum-bank.svg"
+import clickIcon from "../../public/payment-methods/Click.svg"
+import paymeIcon from "../../public/payment-methods/Payme.svg"
+
 
 const Payment = () => {
     const { clearStore, booksToBuy } = useCartStore()
@@ -51,19 +55,19 @@ const Payment = () => {
                             className={`radio-button ${radioValue === 'uzum' && 'active'}`}
                             onClick={() => setRadioValue('uzum')}
                         >
-                            <img className="radio-img" src="../../public/payment-methods/Uzum-bank.svg" alt="uzum"/>
+                            <img className="radio-img" src={uzumIcon} alt="uzum"/>
                         </button>
                         <button
                             className={`radio-button ${radioValue === 'click' && 'active'}`}
                             onClick={() => setRadioValue('click')}
                         >
-                            <img className="radio-img" src="../../public/payment-methods/Click.svg" alt="click"/>
+                            <img className="radio-img" src={clickIcon} alt="click"/>
                         </button>
                         <button
                             className={`radio-button ${radioValue === 'payme' && 'active'}`}
                             onClick={() => setRadioValue('payme')}
                         >
-                            <img className="radio-img" src="../../public/payment-methods/Payme.svg" alt="payme"/>
+                            <img className="radio-img" src={paymeIcon} alt="payme"/>
                         </button>
                     </div>
 
